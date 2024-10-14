@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elag'Art - Élagage et Entretien de Parcs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo Elag'Art">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#galerie">Galerie</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="accueil">
+        <h1>Bienvenue chez Elag'Art</h1>
+        <p>Prenez soin de vos espaces verts avec des professionnels de confiance.</p>
+        <a href="#contact" class="btn">Obtenez un devis gratuit</a>
+    </section>
+
+    <section id="services">
+        <h2>Nos Services</h2>
+        <div class="service-item">
+            <h3>Élagage</h3>
+            <p>Nous élaguons vos arbres avec précision et en toute sécurité.</p>
+        </div>
+        <div class="service-item">
+            <h3>Taille de Haies</h3>
+            <p>Des haies parfaitement entretenues pour embellir vos jardins.</p>
+        </div>
+        <div class="service-item">
+            <h3>Débroussaillage</h3>
+            <p>Prévention des incendies et gestion de la végétation dense.</p>
+        </div>
+        <div class="service-item">
+            <h3>Entretien de Parc</h3>
+            <p>Maintenez vos espaces verts dans un état impeccable tout au long de l'année.</p>
+        </div>
+    </section>
+
+    <section id="apropos">
+        <h2>À Propos de Nous</h2>
+        <p>Elag'Art est une entreprise spécialisée dans l'élagage, la taille de haies et l'entretien des espaces verts.</p>
+        <p>Notre équipe expérimentée est dédiée à offrir un service de qualité tout en respectant l'environnement.</p>
+    </section>
+
+    <section id="galerie">
+        <h2>Galerie</h2>
+        <div class="gallery">
+            <img src="avant_apres1.jpg" alt="Projet Avant/Après 1">
+            <img src="avant_apres2.jpg" alt="Projet Avant/Après 2">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form action="mailto:tonemail@exemple.com" method="post" enctype="text/plain">
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Elag'Art. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
